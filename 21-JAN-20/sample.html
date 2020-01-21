@@ -1,0 +1,119 @@
+<!doctype html5>
+<html>
+<title> css margins </title>
+<head>
+
+    <style>
+    p.id0{
+    padding: 5px;
+    width: 150px;
+    margin-left:62px;
+    margin-top:45px;
+    background-color: #ffffff;
+    }
+
+    #id1{
+
+    width:800px;
+    height:600px;
+    margin-top:50px;
+    margin-left:200px;
+    background-color: #ffffff;
+    }
+    #id2{
+    margin-right:100px;
+    margin-left:500px;
+    margin-top:20px;
+
+    }
+    #id5 {
+    border: none;
+    margin: -830px 0px 400px 860px;
+    width: 550px;
+    height: 780px;
+    background-color: #ffffff;
+    padding: 10px;
+    }
+    li {
+
+    padding: 20px 10px 10px 0px;
+    text-align: left;
+    border: 1px solid black;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom-style: dashed;
+    border-bottom-color: #dddddd;
+    }
+
+    .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+    .col{
+    border:2px solid white;
+    float:left;
+    }
+        </style>
+</head>
+<body  style="background-color:#fbfbfb;">
+<script>
+function changeImage(element) 
+{
+document.getElementById('imageReplace').src = element;
+}
+</script>
+<div  style="background-color:white; width:1470px; height:100px;margin-left:200px;">
+<div style="margin-left:20px;margin-top:40px;">
+
+<h2 style="padding-top:20px;">Lamborghini</h2>
+<h5 style="color:gray;">123 Kathal St.Tampa city</h5>
+</div>
+</div>
+<h2 style="text-align:right;margin-right:250px;margin-top:-60px;">$420.00</h2>
+<div id="id1" style="border:none;">
+<p class="id0">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-WAFlncNpJ6CeQlpjkYQPTFayLIjFfZx0QM2_JOCcH0HE33svpA&s"  id="imageReplace" style="width:650px; height:500px; padding-top:50px;">
+</p>
+</div>
+<div id="id2" style="background-color:#ffffff; width:800px; height:180px; margin-left:200px; margin-top:30px;padding-top:20px;">
+<div class="row">
+<div class="col">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-WAFlncNpJ6CeQlpjkYQPTFayLIjFfZx0QM2_JOCcH0HE33svpA&s" style="width:180px;height:150px;" onclick = "changeImage(this.src);">
+</div>
+<div class="col">
+<img src="https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="width:150px;height:150px;" onclick = "changeImage(this.src);">
+</div>
+<div class="col">
+<img src="https://img.gaadicdn.com/images/carexteriorimages/630x420/Maruti/Maruti-Swift/6323/front-view-118.jpg"style="width:150px;height:150px;" onclick = "changeImage(this.src);">
+</div>
+<div class="col">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCffe1HshFlk7yKXLq5tjqvoCTONBFmNhpGh60cdRdRhqT20J1&s" style="width:150px;height:150px;" onclick = "changeImage(this.src);">
+</div>
+<div class="col">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhWJhSYe2AxlGJfaxXGULfDH7EL4P7YD_hwyw27WUapmKW4QuN&s" style="width:150px;height:150px;"onclick = "changeImage(this.src);">
+</div>
+</div>
+</div>
+
+<div id="id5" style="margin-left:1100px;">
+        <p style="color: #37404d;padding:10px 10px 10px 40px;"><b>SPECIFICATIONS</b></p>
+        <ul style="list-style-type:none;">
+            <li>Make<span style="margin: 350px; " id="spnModal" >Maruthi</span></li> 
+            <li>Model<span style="margin: 345px;" id ="spnModal1">Maxima</span></li>
+            <li>BodyStyle<span style="margin:300px;" id="spnModal2">Convertible</span></li>
+            <li>Year<span style="margin:380px;" id="spnModal3">2017</span></li>
+            <li>Condition<span style="margin:320px;" id="spnModal4">BrandNew</span></li>
+            <li>Milege<span style="margin:350px;" id="spnModal5">34,000mi</span></li>
+            <li>InteriorColor<span style="margin:300px;" id="spnModal6">DarkGray</span></li>
+            <li>Transmission<span style="margin:280px;" id="spnModal7">6speedManual</span></li>
+            <li>Engine<span style="margin:290px;" id="spnModal8">3.4LMidEngineV6</span></li>
+            <li>No.OfGears:<span style="margin:350px;" id="spnModal9">5</span></li>
+            <li>Location<span style="margin:350px;" id="spnModal10">Toronto</span></li>
+            <li>FuelType<span style="margin:300px;" id="spnModal11">GasolineFuel</span></li>
+        </ul>
+ </div>
+</body>
+</html>
+
