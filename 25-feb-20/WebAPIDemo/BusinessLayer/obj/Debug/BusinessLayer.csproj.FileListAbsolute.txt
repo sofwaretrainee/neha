@@ -1,0 +1,10 @@
+C:\SampleProjects\WebAPIDemo\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\SampleProjects\WebAPIDemo\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\SampleProjects\WebAPIDemo\BusinessLayer\bin\Debug\DBManager.dll
+C:\SampleProjects\WebAPIDemo\BusinessLayer\bin\Debug\Models.dll
+C:\SampleProjects\WebAPIDemo\BusinessLayer\bin\Debug\MySql.Data.dll
+C:\SampleProjects\WebAPIDemo\BusinessLayer\bin\Debug\DBManager.pdb
+C:\SampleProjects\WebAPIDemo\BusinessLayer\bin\Debug\Models.pdb
+C:\SampleProjects\WebAPIDemo\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+C:\SampleProjects\WebAPIDemo\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\SampleProjects\WebAPIDemo\BusinessLayer\obj\Debug\BusinessLayer.pdb

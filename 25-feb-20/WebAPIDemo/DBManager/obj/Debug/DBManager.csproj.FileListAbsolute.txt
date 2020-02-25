@@ -1,0 +1,6 @@
+C:\SampleProjects\WebAPIDemo\DBManager\obj\Debug\DBManager.csprojResolveAssemblyReference.cache
+C:\SampleProjects\WebAPIDemo\DBManager\bin\Debug\DBManager.dll
+C:\SampleProjects\WebAPIDemo\DBManager\bin\Debug\DBManager.pdb
+C:\SampleProjects\WebAPIDemo\DBManager\bin\Debug\MySql.Data.dll
+C:\SampleProjects\WebAPIDemo\DBManager\obj\Debug\DBManager.dll
+C:\SampleProjects\WebAPIDemo\DBManager\obj\Debug\DBManager.pdb
